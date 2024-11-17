@@ -7,6 +7,7 @@ import threading
 API_ID = "API_ID"         # Get this from https://my.telegram.org
 API_HASH = "API_HASH"     # Get this from https://my.telegram.org
 BOT_TOKEN = "BOT_TOKEN"   # Obtain from @BotFather
+AUTHORIZATION_HEADER = "sk_wbYbmArZdbN3q1LB" 
 
 
 SHORT_URL_ENDPOINT = "https://api.short.io/links"
@@ -47,7 +48,7 @@ async def process_short_url(event, user_id):
     """Process the short URL creation."""
     headers = {
         "accept": "application/json",
-        "authorization": "sk_wbYbmArZdbN3q1LB", #or replace with yours
+        "authorization": AUTHORIZATION_HEADER, #or replace with yours
         "content-type": "application/json",
     }
     data = {
