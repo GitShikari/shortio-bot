@@ -23,23 +23,17 @@ Try the Telegram bot here: [Shortgy Bot](https://t.me/shortgy_bot)
 
 1. **Clone the Repository**
    ```
-   git clone https://github.com/yourusername/shortgy_bot.git
-   cd shortgy_bot
+   git clone https://github.com/GitShikari/shortio-bot
+   cd shortio-bot
 2. **Install Dependencies Install the required Python packages:**
 
     ```
     Copy code
     pip install -r requirements.txt
-3. **Set Up Environment Variables Create a ```.env``` file in the project directory and add the following:**
-
-    ```
-    BOT_TOKEN=your_telegram_bot_token
-    SHORT_IO_API_KEY=your_shortio_api_key
 4. **Run the Project**
 
     ```
     python main.py
-
 ## Usage
 ### Telegram Bot
 1. Start the bot by clicking the link: Shortgy Bot.
