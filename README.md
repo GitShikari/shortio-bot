@@ -55,5 +55,7 @@ Try the Telegram bot here: [Shortgy Bot](https://t.me/shortgy_bot)
 
 ## Dependencies
 [Telethon](https://github.com/LonamiWebs/Telethon) - For Telegram bot functionality
+
 Flask - For web application
+
 Requests - For API integration
