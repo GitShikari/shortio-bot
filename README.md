@@ -28,7 +28,6 @@ Try the Telegram bot here: [Shortgy Bot](https://t.me/shortgy_bot)
 2. **Install Dependencies Install the required Python packages:**
 
     ```
-    Copy code
     pip install -r requirements.txt
 4. **Run the Project**
 
